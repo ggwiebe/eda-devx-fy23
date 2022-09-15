@@ -24,7 +24,7 @@ from covid_analysis.transforms import *
 import pandas as pd
 
 pdf = pd.read_csv(data_path)
-pdf = filter_country(pdf, country='Canada')
+pdf = filter_country(pdf, country='United States')
 pdf = pivot_and_clean(pdf, fillna=0)  
 pdf = clean_spark_cols(pdf)
 pdf = index_to_col(pdf, colname='date')

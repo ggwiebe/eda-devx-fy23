@@ -48,7 +48,7 @@ jobs:
           # CONFIGURE HERE: Replace this with the identity of a cluster used to run tests.
           # An example value is 0525-025754-t3vqgyf7
           # https://docs.databricks.com/workspace/workspace-details.html#cluster-url-and-id
-          existing-cluster-id: "0807-225846-motto493"
+          existing-cluster-id: "0831-200804-r87zufwr"
 
           git-commit: "${{ github.event.pull_request.head.sha }}"
 

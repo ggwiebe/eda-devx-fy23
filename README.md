@@ -1,4 +1,4 @@
-# Tech Summit FY23: Developer Experience and EDA
+# Developer Experience and EDA
 
 This repository can be used to demonstrate the first party development experience on Databricks. It focuses on exploratory data analysis using `bamboolib` and how to incorporate software engineering best practices with Databricks notebooks.  The majority of this repo is structured as a companion for the example article "Software engineering best practices for Databricks notebooks" ([AWS](https://docs.databricks.com/notebooks/best-practices.html) | [Azure](https://docs.microsoft.com/azure/databricks/notebooks/best-practices) | [GCP](https://docs.gcp.databricks.com/notebooks/best-practices.html)).  
 

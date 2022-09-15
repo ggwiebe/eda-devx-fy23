@@ -23,14 +23,14 @@ print(f'Data path: {data_path}')
 from covid_analysis.transforms import *
 import pandas as pd
 
-df = pd.read_csv(data_path)
-df = filter_country(df, country='United Kingdom')
-df = pivot_and_clean(df, fillna=0)  
-df = clean_spark_cols(df)
-df = index_to_col(df, colname='date')
+pdf = pd.read_csv(data_path)
+pdf = filter_country(pdf, country='Canada')
+pdf = pivot_and_clean(pdf, fillna=0)  
+pdf = clean_spark_cols(pdf)
+pdf = index_to_col(pdf, colname='date')
 
 # Convert from Pandas to a pyspark sql DataFrame.
-df = spark.createDataFrame(df)
+df = spark.createDataFrame(pdf)
 
 display(pdf)
 
